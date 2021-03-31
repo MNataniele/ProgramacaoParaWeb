@@ -1,0 +1,58 @@
+main {
+    display: flex;
+  }
+  
+  .menu {
+    width: 95%; /*largura*/
+    padding: 2rem;  /*preenchimeto*/
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    background-color: #ffd209;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+  }
+  
+  .nome {
+    color: #000;
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 50px;
+    height: 50px;
+    font-family: "Myriad Pro",sans-serif;
+}
+
+  .conteudo {
+    width: 95%;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    }
+
+  .categorias {
+    width: 95%;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .comunidade {
+    width: 95%;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+/*footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(0, 0, 0);
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  } */
+ 
