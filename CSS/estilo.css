@@ -1,0 +1,149 @@
+/*CSS GERAL DE TODAS AS PÁGINAS*/
+body {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin: 0%;
+  width: 100%;
+}
+
+main {
+    display: flex;
+  }
+
+.menu {
+  width: 100%; 
+  margin: 0%;
+  padding: 2rem;  
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+  background-color: #000000;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+  
+.nome {
+  color: rgb(255, 214, 29);
+  font-weight: 900;
+  font-size: 50px;
+  padding-left: 50px;
+  height: 50px;
+  font-family: "Myriad Pro",sans-serif;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+}
+
+/*CSS DA PÁGINA INICIAL*/
+nav h2{
+  width: 100%;
+  padding: 2rem;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.conteudo, .categorias {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.conteudo li {
+  margin: 5%;
+}
+
+.categorias li{
+  margin: 2%;
+}
+
+.comunidade {
+  width: 95%;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+.itemr {
+  margin-left: 15%;
+}
+
+/*CSS DA PÁGINA SOBRE NÓS*/
+
+.sobrenós {
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+  position: relative;
+  border-radius: 1.4%;
+  margin: 0% 1.4%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sobrenóstexto {
+  color: rgb(0, 0, 0);
+  margin-left: 2.1%;
+  margin-bottom: 8%;
+  text-align: justify;
+  margin-right: 5%;
+}
+
+.sobre {
+  color: rgb(255, 224, 47);
+  margin-left: 2.1%;
+}
+
+.kailany, .nataniele, .vitória {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin-bottom: 5%;
+  color: rgb(255, 224, 47);
+}
+
+/*.nataniele {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin-bottom: 5%;
+  color: rgb(255, 224, 47);
+}
+
+.vitória {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  color: rgb(255, 224, 47);
+}*/
+
+.foto {
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.text {
+  margin-top: 50px;
+  position: absolute;
+  left: 21.4%;
+  right: 5%;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.sobre1 {
+  color: rgb(255, 224, 47);
+  margin-left: 2%;
+}
+ 
