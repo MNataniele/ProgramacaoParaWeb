@@ -43,9 +43,6 @@ nav h2 {
 }
 
 .creceitas {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
 
@@ -65,16 +62,3 @@ nav h2 {
 }
 
 
-.fim {
-    min-height:100%;
-    position:relative;
-    width:800px;
-}
-
-.footer {
-    position:absolute;
-    bottom:0;
-    width:100%;
-
-}
-}
