@@ -31,6 +31,9 @@ img {
     font-family: "Myriad Pro",sans-serif;
 }
 
+.topo {
+    text-align: left;
+
 nav h2 {
   width: 95%;
   padding: 2rem;
