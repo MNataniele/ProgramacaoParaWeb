@@ -22,7 +22,7 @@ img {
     font-family: Tahoma, Verdana, Geneva, sans-serif;
   }
   
-  .nome {
+ .nome {
     color: rgb(255, 214, 29);
     font-weight: 900;
     font-size: 50px;
@@ -31,7 +31,7 @@ img {
     font-family: "Myriad Pro",sans-serif;
 }
 
-nav h2{
+nav h2 {
   width: 95%;
   padding: 2rem;
   justify-content: center;
@@ -46,10 +46,8 @@ nav h2{
     display: flex;
     flex-direction: column;
 
- }
+}
 
-
- }
 
 .linha1 {
     display: flex;
