@@ -1,79 +1,79 @@
 main {
+   display: flex;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 25px;
+
+}
+
+.menu {
+    width: 95%; 
+    padding: 2rem;  
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    position: relative;
+    background-color: #000000;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+  }
+  
+  .nome {
+    color: rgb(255, 214, 29);
+    font-weight: 900;
+    font-size: 50px;
+    padding-left: 50px;
+    height: 50px;
+    font-family: "Myriad Pro",sans-serif;
+}
+
+nav h2{
+  width: 95%;
+  padding: 2rem;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.creceitas {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+ }
+
+
+ }
+
+.linha1 {
     display: flex;
 }
 
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.linha2 {
+    display: flex;
 }
 
-.perfil
-/*no HTML classe="perfil" então no CSS ".perfil", no HTML id="perfil" então no CSS #perfil */
-
-{
-    border-radius: 50%;
-    /*deixa a imagem em círculo arredondando as bordas dela*/
-    width: 200px;
-    /*largura da foto*/
-    height: 200px;
-    /*altura da foto*/
-    border: black solid 1px;
-    /*borda em volta da foto com cor preta, o solid serve pra borda aparecer e 1px é a finura da borda*/
-    margin-top: 25px;
-    /*margem de cima (partindo da parte de cima da div no caso)*/
-}
-
-.pessoal {
-    background-color: #335384;
-    /*cor de fundo*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /*fontes que podem ser utilizadas na div "pessoal", coloca-se várias porque nem sempre a primeira fonte pode ser usada pelo navegador, ai o navegador carrega a próxima fonte da esquerda para a direita*/
-    color: white;
-    /*cor da letra*/
-    width: 25%;
-    /*largura da div*/
-    float: left;
-    /*faz a div ficar "flutuando" à esquerda*/
-}
-
-.geral {
-    width: 75%;
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.nome {
-    color: #335384;
-    font-size: 40px;
-    /*tamanho da letra*/
-    padding-left: 30px;
-    /*padding dá um espaço da margem da div/bloco, vc pode usar ele como padding-left/-right/-top/-bottom (esquerda, direita, cima e embaixo, respectivamente.*/
-    height: 20px;
-}
-
-.titulo {
-    padding-left: 30px;
-    font-weight: bold;
-    /*esse foi pra deixar a letra em negrito*/
-    font-size: 25px;
-    color: #5ba7d1;
-}
-
-.habilidades {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-left: 30px;
+.linha3 {
+    display: flex;
 }
 
 
-/*#links {
-    text-decoration: none;
-    color: rgb(168, 168, 168);
-} teste que não funcionou*/
+.fim {
+    min-height:100%;
+    position:relative;
+    width:800px;
+}
 
-a {
-    text-decoration: none;
-    /*tirei o sublinhado dos links*/
-    color: rgb(192, 191, 191);
-    /*mudei a cor da letra dos links*/
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+
+}
 }
