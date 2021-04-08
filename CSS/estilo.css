@@ -6,10 +6,10 @@ body {
   width: 95%;
 }
 
-main {
+*/main {
     display: flex;
     flex-direction: row;
- }
+ }*/
 
 @media (max-width:480px) {
   main {
@@ -81,7 +81,6 @@ main p {
   align-items: center;
   display: flex;
   list-style: none;
-  padding: 1rem
 }
 
 .conteudo li {
