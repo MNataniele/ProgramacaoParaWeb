@@ -8,7 +8,15 @@ body {
 
 main {
     display: flex;
+    flex-direction: row;
   }
+
+@media (max-width:480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  } 
+}
 
 .menu {
   width: 100%; 
@@ -19,8 +27,6 @@ main {
   align-items: center; 
   background-color: #000000;
   font-family: Tahoma, Verdana, Geneva, sans-serif;
-  display: flex;
-  flex-direction: row;
 }
   
 .nome {
