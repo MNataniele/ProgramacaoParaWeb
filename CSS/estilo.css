@@ -19,6 +19,8 @@ main {
   align-items: center; 
   background-color: #000000;
   font-family: Tahoma, Verdana, Geneva, sans-serif;
+  display: flex;
+  flex-direction: row;
 }
   
 .nome {
