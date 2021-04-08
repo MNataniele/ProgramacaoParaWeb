@@ -6,15 +6,12 @@ body {
   width: 95%;
 }
 
-@media (max-width): 100%) {
-}
-
 main {
     display: flex;
   }
 
 .menu {
-  width: 100%; 
+  width: 100px; 
   margin: 0%;
   padding: 2rem;  
   justify-content: center;
