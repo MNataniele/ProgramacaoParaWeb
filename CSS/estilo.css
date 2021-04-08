@@ -23,13 +23,21 @@ body {
   background-color: #000000;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Tahoma, Verdana, Geneva, sans-serif;
 }
+
+.menulogo {
+  display:flex;
+  margin:0%;
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+}
   
 .nome {
   color: #FFB800;
   font-weight: 900px;
-  font-size: 50px;
-  padding-left: 50px;
-  height: 50px;
+  font-size: 65px;
+  padding-left: 0px;
+  height: 100px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',"Myriad Pro",sans-serif;
 }
 
@@ -39,6 +47,7 @@ body {
   width: 200px;
   height: 200px;
   margin-top: 25px;
+  padding-right: 0px;
 }
 
 img {
