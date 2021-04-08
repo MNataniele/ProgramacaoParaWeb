@@ -116,7 +116,7 @@ main p {
 
 .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
   width: 100%;
-  height: 150px;
+  height: auto;
   display: flex;
   margin-bottom: 8%;
   color: #FFB800;
@@ -240,6 +240,10 @@ a {
     flex-direction: column;
     position: relative;
     text-align: center;
+  }
+  
+  .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
+    height: 150px;
   }
  
 }
