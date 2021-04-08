@@ -12,7 +12,7 @@ main {
   }
 
 @media (max-width:480px) {
-  main {
+  .conteudo, .categorias, .proucuradas  {
     display: flex;
     flex-direction: column;
   } 
