@@ -14,9 +14,9 @@ main {
   }
 
 .menu {
-  width: 33%; 
+  width: 100%; 
   margin: 0%;
-  padding: 2rem;  
+  padding: 50%;  
   justify-content: center;
   text-align: center;
   align-items: center; 
