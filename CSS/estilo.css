@@ -222,6 +222,7 @@ a {
    
   .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
     height: 200px;
+    text-align: justify;
    }
   
   .pagina {
