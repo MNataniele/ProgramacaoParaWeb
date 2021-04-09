@@ -241,8 +241,9 @@ a {
   }
   
   .text, .descriçaoreceita {
-     width: 50%;
-     height: 1500px;
+    width: 50%;
+    height: 1500px;
+    position: static;
   }
 }
     
