@@ -212,8 +212,11 @@ a {
     display:flex;
     position:relative;
     max-width: 100%;
-    height: 50px;
-    overflow: auto;
+    height: 20%;
+  }
+  
+  .menulogo {
+    height:100%;
   }
   
   .conteudo, .categorias, .proucuradas {
