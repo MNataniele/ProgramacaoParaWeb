@@ -218,7 +218,7 @@ a {
   }
   
   .conteudo, .categorias, .proucuradas {
-    display: flex;
+    display: none;
     flex-direction: column;
     position: relative;
     right: 13%;
