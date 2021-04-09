@@ -208,6 +208,9 @@ a {
 }
 
 @media (max-width: 1000px) {
+  .logo {
+        display: none;
+    }
   .conteudo, .categorias, .proucuradas {
      display: none;
      flex-direction: column;
