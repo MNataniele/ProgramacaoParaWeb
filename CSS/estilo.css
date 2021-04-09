@@ -227,7 +227,16 @@ a {
     align-items: center;
    }
   
-   
+  .categorias1 {
+    flex-direction: row;
+    height: 20%;  
+  }
+  
+  .content {
+    width: 93%;
+    height: 1500px;
+  } 
+    
   .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
     height: 33%;
     text-align:justify;
