@@ -218,12 +218,13 @@ a {
   }
   
   .conteudo, .categorias, .proucuradas {
-    display: none;
+    display: flex;
     flex-direction: column;
     position: relative;
     right: 13%;
     bottom: 9%;
     text-align: center;
+    width:70%;
    }
    
   .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
