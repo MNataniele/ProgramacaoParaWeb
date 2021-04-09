@@ -228,7 +228,7 @@ a {
     justify-content:space-between;
   }  
     
-  .conteudo, .categorias, .proucuradas {
+  .navegacao, .nagegacaoconteudo {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -248,7 +248,7 @@ a {
     height: 1500px;
   } 
     
-  .divisao, .receita1, .receita2, .receita3 {
+  .equipe, .receita {
     /*height: 200px;*/
     display:flex;
     flex-direction:column;
