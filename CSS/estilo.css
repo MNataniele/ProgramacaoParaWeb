@@ -6,13 +6,6 @@ body {
   width: 95%;
 }
 
-@media (max-width:480px) {
-  main {
-    display: flex;
-    flex-direction: column;
-  } 
-}
-
 .menu {
   width: 100%; 
   margin: 0%;
@@ -226,6 +219,11 @@ a {
   .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
     height: 200px;
    }
-    
+  
+  .pagina {
+    width:100%;
+    height:1500px;
+  }
+  
 }
     
