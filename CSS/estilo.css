@@ -93,7 +93,7 @@ main h2 {
   margin: 0% 1.4%;
   padding: 2%;
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -112,7 +112,7 @@ main h2 {
 
 .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
   width: 100%;
-  height: 150px;
+  height: auto;
   display: flex;
   margin-bottom: 8%;
   color: #FFB800;
@@ -223,6 +223,7 @@ a {
   .pagina {
     width:100%;
     height:1500px;
+    flex-direction: column;
   }
   
 }
