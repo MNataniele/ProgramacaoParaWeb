@@ -212,3 +212,20 @@ a {
   margin-top: 5px;
   height: 100px;
 }
+
+@media (max-width: 1000px) {
+  .conteudo, .categorias, .proucuradas {
+     display: none;
+     flex-direction: column;
+     position: relative;
+     right: 13%;
+     bottom: 9%;
+     text-align: center;
+   }
+   
+  .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
+    height: 200px;
+   }
+    
+}
+    
