@@ -228,8 +228,10 @@ a {
    
   .kailany, .nataniele, .vitória, .receita1, .receita2, .receita3 {
     height: 33%;
-    text-align:right;
+    text-align:justify;
     flex-direction: column;
+    position: absolute;
+    right:60px;
    }
   
   .pagina {
