@@ -212,12 +212,12 @@ a {
     display:flex;
     position:relative;
     max-width: 100%;
-    height: 20%;
+    height: 100px;
   }
   
   .menulogo {
     max-width:100%
-    height:70%;
+    height:100px;
     padding:0%;
   }
   
