@@ -212,7 +212,7 @@ a {
   .menu {
     display:flex;
     position:relative;
-    max-width: 92%;
+    max-width: 100%;
   }
   
   .nome {
@@ -256,10 +256,10 @@ a {
     align-items:center;
    }
   
-  element.style {
+  /*element.style {
      width:100%;
     text-align:center;
-  }
+  }*/
   
   .pagina {
     width:100%;
