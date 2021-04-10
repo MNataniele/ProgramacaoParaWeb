@@ -270,6 +270,9 @@ a {
     flex-direction:column;
   }
   
+  .preparoreceita {
+    margin:1px;
+  
   /*.text, .descriçaoreceita {
     width: 80%;
     height: 1500px;
