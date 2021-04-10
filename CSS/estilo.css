@@ -5,6 +5,10 @@ body {
   width: 100%;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .menu {
   width: 100%; 
   margin: 0%;
