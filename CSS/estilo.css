@@ -269,10 +269,7 @@ a {
   .categorias {
     flex-direction:column;
   }
-  
-  .preparoreceita {
-    margin:2px;
-  
+
   /*.text, .descriçaoreceita {
     width: 80%;
     height: 1500px;
