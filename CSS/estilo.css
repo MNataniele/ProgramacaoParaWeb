@@ -250,7 +250,7 @@ main h2 {
   }  
   
   .iconemenu {
-    display: flex;
+    display: block;
     color: #FFB800;
   }
     
