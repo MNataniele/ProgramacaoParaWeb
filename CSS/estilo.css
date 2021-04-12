@@ -244,9 +244,9 @@ span {
     align-items: center;
    }
 
-  li{
+  /*li{
     margin-bottom: 1rem;
-  }  
+  }  */
   
   .categorias1 {
     flex-direction: row;
