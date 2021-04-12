@@ -281,6 +281,7 @@ main h2 {
   
   .pagina {
     width:100%;
+    /*height:1500px;*/
     flex-direction: column;
   }
   
