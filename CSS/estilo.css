@@ -220,11 +220,13 @@ span {
     display:none;
     flex-direction:column;
     width:100%;
+    color:#FFB800;
+    spacing:2px;
   }
     
-  li{
+  /*li{
     margin-bottom: 1rem;
-  }
+  }*/
   
   .nome {
     font-size:24px;
