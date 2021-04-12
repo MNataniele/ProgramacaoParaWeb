@@ -96,7 +96,7 @@ main h2 {
   margin: 2%;
 }
 
-span {
+.iconemenu {
   display: none;
 }
 
@@ -242,7 +242,7 @@ span {
     justify-content:space-between;
   }  
   
-  span {
+  .iconemenu {
     display: flex;
     color: #FFB800;
   }
