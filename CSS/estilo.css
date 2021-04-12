@@ -74,7 +74,16 @@ main h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',"Myriad Pro",sans-serif;
 }
 
-.navegacao, .navegacaoconteudo {
+.navegacao, /*.navegacaoconteudo {*/
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.navegacaoconteudo {
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -244,9 +253,9 @@ span {
     align-items: center;
    }
 
-  /*li{
+  li{
     margin-bottom: 1rem;
-  }  */
+  }
   
   .categorias1 {
     flex-direction: row;
