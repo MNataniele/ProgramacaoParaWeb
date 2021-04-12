@@ -216,7 +216,7 @@ span {
   }
   
   .menul {
-    display:flex;
+    display:none;
     flex-direction:column;
     width:100%;
   }
