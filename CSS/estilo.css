@@ -212,6 +212,7 @@ main h2 {
     
   .menu {
     display:flex;
+    flex-direction:column;
     position:relative;
     max-width: 100%;
   }
