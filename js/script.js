@@ -7,7 +7,11 @@ const fundomenu = document.querySelector('.fundomenu')*/
 
 
 span.addEventListener('click', function() {
-  navegacaoconteudo.style.display = 'flex'
+  if(navegacaoconteudo.style.display !== 'flex') {
+    navegacaoconteudo.style.display = 'flex'
+  } else {
+    navegacaoconteudo.style.display = ''
+  }
 })
     /*if (menupc.style.display !== 'flex') {
         menupc.style.display = 'flex'
