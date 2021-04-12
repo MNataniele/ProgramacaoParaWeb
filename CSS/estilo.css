@@ -19,7 +19,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Tahoma, Verdana, Geneva, sans-serif;
 }
 
-.menul a {
+.menul {
   display: none;
   color:#FFB800;
 }
@@ -217,7 +217,7 @@ main h2 {
     max-width: 100%;
   }
   
-  .menul a {
+  .menul {
     display:none;
     flex-direction:column;
     width:100%;
