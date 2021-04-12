@@ -15,7 +15,8 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center; 
-  background-color: #000000;
+  /*background-color: #000000;*/
+  background-color: #ffff99;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Tahoma, Verdana, Geneva, sans-serif;
 }
 
