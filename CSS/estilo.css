@@ -91,6 +91,10 @@ main h2 {
   margin: 2%;
 }
 
+span {
+  display: none;
+}
+
 /*CSS DA PÁGINA SOBRE NÓS (ALGUMAS PARTES SÃO DAS PÁGINAS DE RECEITAS TAMBÉM)*/
 
 .pagina { 
@@ -214,6 +218,10 @@ main h2 {
   .menulogo {
     justify-content:space-between;
   }  
+  
+  span {
+    display: block;
+  }
     
   .navegacao, .navegacaoconteudo {
     display: flex;
