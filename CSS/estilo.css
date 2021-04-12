@@ -208,6 +208,13 @@ span {
 }
 
 @media (max-width: 1000px) {
+  .fotomenu {
+    max-width: 100%;
+    border-radius: 0%;
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+    
   .menu {
     display:flex;
     position:relative;
