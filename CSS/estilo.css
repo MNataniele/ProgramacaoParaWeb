@@ -59,14 +59,7 @@ img {
 }
 
 .itemr {
-  /*margin-left: 2%;*/
-  /*margin-left: 2.1%;
-  text-align: justify;
-  margin-right: 5%;*/
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin-bottom: 8%;
+  margin-left: 2%;
 }
 
 a {
