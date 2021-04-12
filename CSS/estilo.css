@@ -59,7 +59,10 @@ img {
 }
 
 .itemr {
-  margin-left: 2%;
+  /*margin-left: 2%;*/
+  margin-left: 2.1%;
+  text-align: justify;
+  margin-right: 5%;
 }
 
 a {
@@ -286,6 +289,11 @@ main h2 {
   
   .categorias {
     flex-direction:column;
+  }
+  
+  .itemr {
+    flex-direction: column;
+    width:100%;
   }
   
   /*.navegacaoconteudo {
