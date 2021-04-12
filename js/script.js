@@ -1,12 +1,13 @@
-const span = document.querySelector('span')
+const iconemenu = document.querySelector('.iconemenu')
 const menu = document.querySelector('.menu')
 const menul = document.querySelector('.menul')
 const menulogo = document.querySelector('.menulogo')
-/*const menu = document.querySelector('.menu')
+/*const logo = document.querySelector('.logo')
 const fundomenu = document.querySelector('.fundomenu')*/
-
-
-span.addEventListener('click', function() {
+  
+  
+/*span.addEventListener('click', function() {*/
+  iconemenu.addEventListener('click', function() {
   if(menu.style.display !== 'flex') {
     menu.style.display = 'flex'
     menul.style.display = 'flex'
