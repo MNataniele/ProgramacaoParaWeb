@@ -256,6 +256,10 @@ main h2 {
   .categorias {
     flex-direction:column;
   }
+  
+  .navegacaoconteudo {
+    display: none;
+  }
 
   /*.text, .descriçaoreceita {
     width: 80%;
