@@ -241,6 +241,7 @@ span {
   
   span {
     display: flex;
+    color: #FFB800;
   }
     
   .navegacao, .navegacaoconteudo {
