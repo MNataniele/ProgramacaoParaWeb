@@ -1,5 +1,5 @@
 const span = document.querySelector('span')
-const navegacaoconteudo = document.querySelector('.navegacaoconteudo')
+const menu = document.querySelector('.menu')
 /*const menul = document.querySelector('.menul')
 const menur = document.querySelector('.menur')
 const menu = document.querySelector('.menu')
@@ -7,10 +7,10 @@ const fundomenu = document.querySelector('.fundomenu')*/
 
 
 span.addEventListener('click', function() {
-  if(navegacaoconteudo.style.display !== 'flex') {
-    navegacaoconteudo.style.display = 'flex'
+  if(menu.style.display !== 'flex') {
+    menu.style.display = 'flex'
   } else {
-    navegacaoconteudo.style.display = ''
+    menu.style.display = ''
   }
 })
     /*if (menupc.style.display !== 'flex') {
