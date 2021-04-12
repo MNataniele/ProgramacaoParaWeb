@@ -83,15 +83,6 @@ main h2 {
   list-style: none;
 }
 
-/*.navegacaoconteudo {
-  width: 100%;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  list-style: none;
-}*/
-
 .navegacaoconteudo li {
   margin: 5%;
 }
@@ -218,6 +209,12 @@ span {
     display:flex;
     position:relative;
     max-width: 100%;
+    flex-direction: column;
+    width:100%
+  }
+  
+  li{
+    margin-bottom: 1rem;
   }
   
   .nome {
@@ -238,7 +235,7 @@ span {
     display: block;
   }
     
-  .navegacao, /*.navegacaoconteudo {*/
+  .navegacao, .navegacaoconteudo {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -248,7 +245,7 @@ span {
     align-items: center;
    }
   
-  .navegacaoconteudo {
+  /*.navegacaoconteudo {
     display: none;
     /*display: flex;*/
     flex-direction: column;
@@ -257,12 +254,8 @@ span {
     width:70%;*/
     width: 100%;
     /*justify-content: center;
-    align-items: center;*/
-   }
-
-  li{
-    margin-bottom: 1rem;
-  }
+    align-items: center;
+   }*/
   
   .categorias1 {
     flex-direction: row;
@@ -300,12 +293,7 @@ span {
     display: none;
   }*/
 
-  /*.text, .descriçaoreceita {
-    width: 80%;
-    height: 1500px;
-    position: absolute;
-    right:60px;
-  }*/
+
 }
 
 
